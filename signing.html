@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sign In (SEU/IS/19/ICT/026)</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+    </style>
+	
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body> 
+   <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-navy"><img width="120px" height="125px" src="img/seu_logo.png">South Eastern University Of SriLanka</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="History.html" class="dropdown-item">History</a>
+                        <a href="corporate_direction.html" class="dropdown-item">Corporate Direction</a>
+                        <a href="vicechancellor.html" class="dropdown-item">Vice Chancellor</a>
+                         <a href="chancellor.html" class="dropdown-item">Chancellor</a>
+                        
+                         <a href="Past_Vice_chancellors.html" class="dropdown-item">Past Vice Chancellors</a>
+                         <a href="Past_chancellors.html" class="dropdown-item">Past Chancellors</a>
+                         <a href="senate.html" class="dropdown-item">Senate</a>
+
+                         <a href="visionmission.html" class="dropdown-item">Vision and Mission</a>
+
+
+                     </div>
+                </div>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="Our team.html" class="dropdown-item">Our Team</a>
+                        <a href="downloads.html" class="dropdown-item">Downloads</a>
+                        <a href="Gallery.html" class="dropdown-item">Gallery</a>
+                    </div>
+                </div>
+                <a href="Contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="Login Page.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <section>
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="1.jpg"
+                      alt="Sample photo" class="img-fluid"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h2 class="mb-5 text-uppercase">Student registration form</h2>
+        
+    <form class="row g-3" action="" method="post">
+        <div class="col-md-6">
+          <label for="firstname" class="form-label">First name</label>
+          <input type="text" class="form-control form-control-lg" id="fname">
+
+        </div>
+        <div class="col-md-6">
+          <label for="lastname" class="form-label">Last name</label>
+          <input type="text" class="form-control form-control-lg" id="lname">
+        </div>
+        <div class="col-md-6">
+          <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control form-control-lg" id="uname">
+        </div>
+        <div class="col-md-6">
+          <label for="city" class="form-label">City</label>
+          <input type="text" class="form-control form-control-lg" id="city">
+        </div>
+        <div class="col-md-6">
+          <label for="province" class="form-label">Province</label>
+          <select class="form-select form-select-lg mb-1" id="province">
+            <option value="">Choose your Province</option>
+            <option value="central">Central</option>
+            <option value="north">North Central</option>
+            <option value="northern">Northern</option>
+            <option value="east">Eastern</option>
+            <option value="nwest">North Westen</option>
+            <option value="southern">Southern</option>
+            <option value="uva">Uva</option>
+            <option value="sabaragamuwa">Sabaragamuwa</option>
+            <option value="west">Western</option>
+          </select>
+        </div>
+
+        
+        <div class="col-md-6">
+          <label for="postal" class="form-label">Postal</label>
+          <input type="text" class="form-control form-control-lg" id="postal">
+        </div>
+
+        <div class="col-md-6">
+        <label for="province" class="form-label">Gender</label>
+          <select class="form-select form-select-lg mb-1s" id="gender">
+            <option value="">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="col-md-12">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control form-control-lg" id="add" >
+        </div>       
+        <div class="col-md-12">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control form-control-lg" id="email" >
+        </div>
+          <div class="col-md-6">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control form-control-lg" id="password">
+          </div><br>
+          <div class="col-md-6">
+            <label class="form-label">Confirm Password</label>
+            <input type="password" class="form-control form-control-lg" id="cpassword">
+          </div>
+          <div class="form-check d-flex justify-content-start mb-1 pb-0">
+            <input class="form-check-input me-3" type="checkbox" name="checkbox" value="checkbox" id="check" />
+            <label class="form-check-label text-black" for="form2Example3">
+              I do accept the <a href="#!" class="text-blue"><u>Terms and Conditions</u></a> of yoursite.</label>
+          </div>
+
+            <button type="submit" class="btn btn-warning btn-lg ms-2" onclick="return validation()">Submit form</button>
+            <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+            
+          
+          <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="Login Page.html" class="fw-bold text-body"><u>Login here</u></a></p>
+      </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section> 
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Quick Link</h4>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">FAQs & Help</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Faculty of Technology,<br>
+                    &nbsp&nbspSouth Eastern University of Sri &nbsp&nbspLanka,<br>
+                    &nbsp&nbspUniversity Park,<br>
+                    &nbsp&nbspOluvil,<br>
+                    &nbsp&nbsp#32360,<br>
+                    &nbsp&nbspSri Lanka.</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 67 2255062</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>vcseu@seu.ac.lk</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/seu.ac.lk"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/watch?v=Q6fE5oEDR6I"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Gallery</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Newsletter</h4>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>
+
+<script>
+    var fname=document.getElementById("fname") 
+    var lname=document.getElementById("lname") 
+    var uname=document.getElementById("uname") 
+    var city=document.getElementById("city") 
+    var province=document.getElementById("province") 
+    var add=document.getElementById("add") 
+    var email=document.getElementById("email") 
+    var postal=document.getElementById("postal") 
+    var gender=document.getElementById("gender") 
+    var password=document.getElementById("password") 
+    var conpassword=document.getElementById("cpassword") 
+    var check=document.getElementById("check") 
+ 
+    function validation(){
+     if(emp(fname.value) || namecheck(fname.value)){
+         alert("The first name is either empty or not in the right format.")
+         fname.style.border="2px solid red"
+         return false
+     }else{
+         fname.style.border="2px solid green"
+     }
+     if(emp(lname.value) || namecheck(lname.value)){
+         alert("The last name is either empty or not in the right format.")
+         lname.style.border="2px solid red"
+         return false
+     }
+     else{
+         lname.style.border="2px solid green"
+     }
+         if(emp(uname.value) || namecheck(uname.value)){
+         alert("The user name is either empty or not in the right format.")
+         uname.style.border="2px solid red"
+         return false
+     }
+     else{
+         uname.style.border="2px solid green"
+     }
+     if(emp(city.value) || namecheck(city.value)){
+         alert("The City is either empty or not in the right format.")
+         city.style.border="2px solid red"
+         return false
+     }else{
+         city.style.border="2px solid green"
+     }
+ 
+     if(emp(province.value)){
+         alert("The province has not been chosen.")
+         province.style.border="2px solid red"
+         return false
+     }else{
+         province.style.border="2px solid green"
+     }
+     if(emp(postal.value)){
+         alert("The Postal is either empty or not in the right format.")
+         postal.style.border="2px solid red"
+         return false
+     }
+     else{
+         postal.style.border="2px solid green"
+     }
+     if(emp(gender.value)){
+         alert("The Gender has not been chosen.")
+         gender.style.border="2px solid red"
+         return false
+     }else{
+         gender.style.border="2px solid green"
+     }
+
+     if(addcheck(add.value) || emp(add.value)){
+         alert("The Address is either empty or not in the right format.")
+         add.style.border="2px solid red"
+         return false
+     }else{
+         add.style.border="2px solid green"
+     }
+
+     if(emp(email.value) || emailcheck(email.value)){
+         alert("The Email is either empty or not in the right format.")
+         email.style.border="2px solid red"
+         return false
+     }else{
+         email.style.border="2px solid green"
+     }
+     if(emp(password.value)){
+         alert("Password is empty")
+         password.style.border="2px solid red"
+         return false
+     }else{
+         password.style.border="2px solid green"
+     }
+     if(emp(conpassword.value)){
+         alert("confirm password is empty")
+         conpassword.style.border="2px solid red"
+         return false
+     }else{
+         conpassword.style.border="2px solid green"
+     }
+     if (password.value != conpassword.value) {
+        alert("The password and confirmation password do not match.")
+        conpassword.style.border="2px solid red"
+        password.style.border="2px solid red"
+        return false
+     }
+     if(check.checked != true){
+        alert('You must agree to the terms first.');
+        return false;
+    }
+ }
+ 
+    function emp(x){
+     if(x==""){
+         return true;
+     }
+    }
+ 
+    function namecheck(x) {
+        var pattern = /^[A-Za-z]{5,15}$/
+        if (!x.match(pattern)) {
+            return true;
+        }
+    }
+
+    function addcheck(x) {
+        var pattern = /^[A-Za-z0-9]{10,50}$/
+        if (!x.match(pattern)) {
+            return true;
+        }
+    }
+
+    function emailcheck(x) {
+        var pattern = /^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/
+        if (!x.match(pattern)) {
+            return true;
+        }
+    }
+
+    
+ 
+ </script>
