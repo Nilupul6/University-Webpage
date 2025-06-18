@@ -92,7 +92,13 @@ If hosted, you can add a live demo link here.
 
 ## 📷 Screenshots
 
-_Add screenshots of the homepage, program pages, and other features here for a visual overview._
+![Screenshot (11)](https://github.com/user-attachments/assets/bc807483-3c77-42f7-87c2-24fef7ad964d)
+
+
+
+
+![Screenshot (12)](https://github.com/user-attachments/assets/4f6468d8-6d10-4ebb-9825-5834d5368909)
+
 
 ---
 
