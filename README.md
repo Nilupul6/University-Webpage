@@ -86,7 +86,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If hosted, you can add a live demo link here.
 
-[Demo Link](#) <!-- Replace with actual link if available -->
+[Demo Link](https://nilupul6.github.io/University-Webpage/)
 
 ---
 
